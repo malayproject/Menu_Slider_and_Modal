@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  background-color: azure;
+  margin: 0;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+}
+.navColumn {
+  display: flex;
+  flex-direction: column;
+  z-index: -10;
+  min-height: 100vh;
+  width: 0%;
+}
+.visible {
+  min-width: 150px;
+  z-index: 10;
+  background-color: #0d3f00;
+  color: white;
+}
+nav imgDiv {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 60%;
+  min-width: 50px;
+}
+nav a {
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.container {
+  background-color: azure;
+  margin: 0;
+}
+header {
+  text-align: center;
+  justify-content: center;
+  background-color: #2ccc89;
+  padding: 10px;
+}
+
+.nonHeader {
+  padding: 20px;
+}
+.toggleBtn {
+  text-align: left;
+}
+form {
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+  z-index: 10;
+  background-color: #ddd;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 150px;
+}
+form .form,
+.hidden {
+  z-index: -10;
+}
+.formEl {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+form h3 {
+  text-align: center;
+}
+
+input {
+  border-radius: 5px;
+  padding: 3px;
+}
+input:hover {
+  border-color: rgb(129, 125, 131);
+  border-radius: 5px;
+}
+input.success {
+  background-color: rgb(171, 255, 87);
+}
+input.error {
+  background-color: rgb(255, 103, 103);
+}

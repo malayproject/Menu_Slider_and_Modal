@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Slider & Modal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="resources/fontawesome-free-5.13.1-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navColumn" id="navColumn">
+      <div class="imgDiv" id="imgDiv">
+        <img
+          src="https://randomuser.me/api/portraits/men/7.jpg"
+          alt="me.jpg"
+          class="pic"
+          id="pic"
+        />
+      </div>
+      <a href="#">Home</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact me</a>
+    </nav>
+    <div class="container" id="container">
+      <header class="header" id="header">
+        <div class="toggleBtn" id="toggleBtn">
+          <button class="toggle" id="toggle">
+            <i class="horBars fa fa-bars" id="horBars"></i>
+          </button>
+        </div>
+        <h1>My Home Page</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil,
+          obcaecati.
+        </p>
+        <button type="button" class="signUp" id="signUp">Sign Up</button>
+      </header>
+      <div class="nonHeader" id="nonHeader">
+        <h4>What is this home page about?</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+          earum veritatis dolore totam quas labore officiis ipsum magni
+          quisquam. Quibusdam. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Totam expedita esse aspernatur quae impedit
+          voluptates magni dignissimos temporibus asperiores iste! Magnam maxime
+          laborum soluta perferendis esse iste blanditiis, nihil earum!
+        </p>
+        <h4>Tell me more</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
+          blanditiis ratione voluptates dolore laboriosam natus odit doloremque
+          molestiae numquam quaerat.
+        </p>
+        <h4>Benefits</h4>
+        <ul>
+          <li>Lifetime Access</li>
+          <li>10 Day money Back</li>
+          <li>Custom support</li>
+        </ul>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore esse
+          similique cumque sint voluptatem. Quos a alias ducimus temporibus
+          exercitationem ad natus commodi, veritatis unde hic eligendi
+          reprehenderit placeat iste, corporis quod dolore expedita consequatur!
+          Sint reiciendis consectetur qui eos.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem, ullam fuga. Laudantium eligendi cumque, officia
+          asperiores corrupti distinctio explicabo, numquam vitae possimus
+          incidunt quam dolore non veritatis aspernatur sequi quas similique
+          reprehenderit quo nesciunt fugit expedita! Esse sequi, corrupti
+          architecto enim maxime culpa eaque ipsum autem nostrum, voluptatem
+          illum, quas earum quos eius unde modi odio facilis distinctio
+          similique quis.
+        </p>
+      </div>
+    </div>
+    <form action="" class="form hidden" id="form">
+      <div class="signHead" id="signHead">
+        <h3>Sign Me Up</h3>
+      </div>
+
+      <div class="fNameDiv formEl" id="fNameDiv">
+        <label for="fName">First Name</label>
+        <input
+          type="text"
+          class="fNameIp"
+          id="fNameIp"
+          placeholder="first name"
+        />
+      </div>
+
+      <div class="lNameDiv formEl" id="lNameDiv">
+        <label for="lName">Last Name</label>
+        <input
+          type="text"
+          class="lNameIp"
+          id="lNameIp"
+          placeholder="last name"
+        />
+      </div>
+
+      <div class="genDiv formEl" id="genDiv">
+        <label for="gender">Gender</label>
+        <input type="text" class="genIp" id="genIp" />
+      </div>
+
+      <div class="emailDiv formEl" id="emailDiv">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          class="emailIp"
+          id="emailIp"
+          placeholder="abc@abc.com"
+        />
+      </div>
+
+      <div class="submitDiv formEl" id="submitDiv">
+        <button type="submit" class="submit" id="submit">Submit</button>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
